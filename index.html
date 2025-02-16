@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <div class="wrapper"> -->
+    <div class="container-btn">
+        <section class="hasil" id="hasil">
+            <div class="prev"></div>
+            <div class="current">0</div>
+        </section>
+        <section class="prev-answer">
+            <div class="detail">prev answer</div>
+            <div class="jawaban">-</div>
+        </section>
+        <button class="btn btn-2row" onclick="Clear()">CA</button>
+        <button class="btn btn-simbol" onclick="Delete()">&larr;</button>
+        <button class="btn btn-simbol" onclick="chooseOperation('÷')">&divide;</button>
+        <button class="btn btn-no" onclick="clickNumber('7')">7</button>
+        <button class="btn btn-no" onclick="clickNumber('8')">8</button>
+        <button class="btn btn-no" onclick="clickNumber('9')">9</button>
+        <button class="btn btn-simbol" onclick="chooseOperation('×')">&times;</button>
+        <button class="btn btn-no" onclick="clickNumber('4')">4</button>
+        <button class="btn btn-no" onclick="clickNumber('5')">5</button>
+        <button class="btn btn-no" onclick="clickNumber('6')">6</button>
+        <button class="btn btn-simbol" onclick="chooseOperation('-')">&minus;</button>
+        <button class="btn btn-no" onclick="clickNumber('1')">1</button>
+        <button class="btn btn-no" onclick="clickNumber('2')">2</button>
+        <button class="btn btn-no" onclick="clickNumber('3')">3</button>
+        <button class="btn btn-simbol" onclick="chooseOperation('+')">&plus;</button>
+        <button class="btn btn-dot" onclick="clickNumber('.')">.</button>
+        <button class="btn btn-3row" onclick="clickNumber('0')">0</button>
+        <button class="btn btn-simbol" onclick="Perhitungan()">&equals;</button>
+    </div>
+    <!-- </div> -->
+    <script src="data.js"></script>
+</body>
+
+</html>
