@@ -49,7 +49,7 @@ function Perhitungan() {
         case '×':
             perhitungan = prev * current
             break
-        case '+':
+        case '÷':
             perhitungan = prev / current
             break
         default:
